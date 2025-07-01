@@ -85,6 +85,16 @@ a {
 	color: inherit;
 }
 
+/* Texto gradient */
+a:hover {
+	background: linear-gradient(90deg, var(--brand-color-secondary) 0%, var(--brand-color-primary) 100%);
+
+	-webkit-background-clip: text;
+	background-clip: text;
+
+	color: transparent;
+}
+
 /* Quando não se quer a "bolinha" ao lado de uma lista. Você define que é uma lista pora o navegador através do 'role' */
 ul[role='list'] {
 	list-style: none;
